@@ -76,4 +76,9 @@ class NewsController extends SuperController<NewsPageListResponseEntity> {
   void onResumed() {
     print('onResumed called');
   }
+
+  @override
+  void onHidden() {
+    // TODO: implement onHidden
+  }
 }
